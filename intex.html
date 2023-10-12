@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo List</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-light"> <!-- Set background color to light gray -->
+
+    <div class="container py-4">
+        <div class="jumbotron bg-secondary text-center text-white">
+            <h1>ToDo List</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="input-group mb-3">
+                    <input id="taskInput" type="text" class="form-control" placeholder="Add a new task">
+                    <div class="input-group-append">
+                        <button id="addTask" class="btn btn-primary">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>List</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                            <th>Complete</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Your task list items will be added here dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap and custom script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

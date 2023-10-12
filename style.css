@@ -1,0 +1,48 @@
+/* Rest of the CSS remains the same */
+
+/* Add spacing between rows and columns */
+#taskList {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for table cells */
+#taskList th, #taskList td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for buttons and checkbox */
+button {
+    background-color: #e74c3c;
+    color: rgb(200, 184, 184);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+}
+
+/* Button colors */
+#addTask {
+    background-color: #3498db; /* Blue */
+    color: white;
+}
+
+.editButton {
+    background-color: #27ae60; /* Green */
+    color: white;
+}
+
+.deleteButton {
+    background-color: #e74c3c; /* Red */
+    color: white;
+}
